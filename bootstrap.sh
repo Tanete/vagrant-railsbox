@@ -32,7 +32,7 @@ echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc
 gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
 gem install bundler
 bundle -v
-gem install rails -v 4.2.7
+gem install rails -v 5.0.0
 rails -v
 sudo apt-get clean
 echo "--------------------------- Install Successed -----------------------------"
